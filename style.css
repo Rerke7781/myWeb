@@ -11,9 +11,10 @@ header a, footer a { text-decoration: none; }
 main { padding: 34px 0 16px; }
 section { margin-bottom: 30px; }
 .identity { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
-.identity img { width: 82px; height: auto; display: block; border-radius: 2px; }
+.identity img { width: 56px; height: auto; flex-shrink: 0; display: block; border-radius: 2px; }
 h1 { font-weight: 500; font-size: 36px; line-height: 1.25; margin: 0; }
-.subtitle { font-size: 16px; color: var(--muted); margin: 7px 0 0; }
+.primary-email { font-size: 16px; margin: 10px 0 4px; }
+.subtitle { font-size: 13px; color: var(--muted); margin: 0; }
 h2 { font-size: 21px; font-weight: 600; margin: 0 0 13px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
 p { margin: 0 0 14px; }
 strong { font-weight: 600; }
@@ -33,7 +34,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px
   h1 { font-size: 30px; }
   h2 { font-size: 20px; }
   .identity { gap: 15px; }
-  .identity img { width: 65px; }
+  .identity img { width: 48px; }
   .contact { display: grid; font-size: 12px; }
   .muted { font-size: 13px; }
 }
